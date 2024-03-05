@@ -23,7 +23,7 @@ RegisterNumber:  212223230188
 ```
 
 ## Output:
-```
+
 import numpy as np
 import pandas as pd 
 from sklearn.preprocessing import StandardScaler
@@ -43,7 +43,7 @@ def linear_regression(X1,y,learning_rate=0.1,num_iters=100):
     return theta
 data=pd.read_csv("C:/Users/admin/Desktop/50_Startups.csv")
 data.head()
-[!image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/0dabb6a6-25ad-484d-80cc-2de5549e9496)
+![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/0dabb6a6-25ad-484d-80cc-2de5549e9496)
 #assuming the last coloumn is your target variable 'y'
 X=(data.iloc[1:,:-2].values)
 X1=X.astype(float)
@@ -162,8 +162,8 @@ prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(prediction)
 print(f"Predicted value: {pre}")
-[!image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/895b9a4c-cbee-4669-a1b6-245fb960abe5)
-```
+![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/895b9a4c-cbee-4669-a1b6-245fb960abe5)
+
 
 
 ## Result:
