@@ -170,4 +170,4 @@ print(f"Predicted value: {pre}")
 
 
 ## Result:
-Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
+Thus the program to implement the linear regression using gradient descent is written and verified using python programming
