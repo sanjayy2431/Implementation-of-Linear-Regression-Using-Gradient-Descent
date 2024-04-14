@@ -56,7 +56,6 @@ print(X1_Scaled)
 
 ![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/0dabb6a6-25ad-484d-80cc-2de5549e9496)
 ```
-#assuming the last coloumn is your target variable 'y'
 
 [[162597.7  151377.59 443898.53]
  [153441.51 101145.55 407934.54]
