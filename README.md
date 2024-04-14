@@ -41,13 +41,6 @@ def linear_regression(X1,y,learning_rate=0.1,num_iters=100):
     return theta
 data=pd.read_csv("C:/Users/admin/Desktop/50_Startups.csv")
 data.head()
-```
-
-## Output:
-
-![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/0dabb6a6-25ad-484d-80cc-2de5549e9496)
-```
-#assuming the last coloumn is your target variable 'y'
 X=(data.iloc[1:,:-2].values)
 X1=X.astype(float)
 
@@ -57,6 +50,14 @@ X1_Scaled=scaler.fit_transform(X1)
 Y1_Scaled=scaler.fit_transform(y)
 print(X)
 print(X1_Scaled)
+```
+
+## Output:
+
+![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/0dabb6a6-25ad-484d-80cc-2de5549e9496)
+```
+#assuming the last coloumn is your target variable 'y'
+
 [[162597.7  151377.59 443898.53]
  [153441.51 101145.55 407934.54]
  [144372.41 118671.85 383199.62]
