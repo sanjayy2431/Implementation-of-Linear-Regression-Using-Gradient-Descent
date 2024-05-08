@@ -44,13 +44,18 @@ print(X1_Scaled)
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ## Output:
 
 ![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/0dabb6a6-25ad-484d-80cc-2de5549e9496)
 ```
 
 [[162597.7  151377.59 443898.53]       
- [153441.51 101145.55 407934.54]      
+ [153441.51 101145.55 407934.54]  
  [144372.41 118671.85 383199.62]      
  [142107.34  91391.77 366168.42]      
  [131876.9   99814.71 362861.36]      
@@ -155,8 +160,8 @@ new_Scaled=scaler.fit_transform(new_data)
 prediction=np.dot(np.append(1,new_Scaled),theta)     
 prediction=prediction.reshape(-1,1)         
 pre=scaler.inverse_transform(prediction)           
-print(prediction)     
-print(f"Predicted value: {pre}")    
+print(prediction)
+print(f"Predicted value: {pre}")
 ```
 ## PREDICTED VALUE:      
 ![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/895b9a4c-cbee-4669-a1b6-245fb960abe5)
