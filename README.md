@@ -38,7 +38,12 @@ y=(data.iloc[1:,-1].values).reshape(-1,1)
 X1_Scaled=scaler.fit_transform(X1)     
 Y1_Scaled=scaler.fit_transform(y)     
 print(X)     
-print(X1_Scaled)     
+print(X1_Scaled) 
+<br>
+<br>
+<br>
+<br>
+<br>
 ## Output:
 
 ![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/0dabb6a6-25ad-484d-80cc-2de5549e9496)
