@@ -15,17 +15,7 @@ To write a program to predict the profit of a city using the linear regression m
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 ## Program:
 Program to implement the linear regression using gradient descent.    
 Developed by: sanjay.v     
@@ -65,10 +55,25 @@ print(X1_Scaled)
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ## Output:
 
 ![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/0dabb6a6-25ad-484d-80cc-2de5549e9496)
+<br>
+<br>
+<br>
+
 ```
+
 
 [[162597.7  151377.59 443898.53]       
  [153441.51 101145.55 407934.54]  
@@ -181,6 +186,11 @@ print(f"Predicted value: {pre}")
 ```
 ## PREDICTED VALUE:      
 ![image](https://github.com/sanjayy2431/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149365143/895b9a4c-cbee-4669-a1b6-245fb960abe5)
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
