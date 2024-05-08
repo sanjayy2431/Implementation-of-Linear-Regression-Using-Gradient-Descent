@@ -9,7 +9,21 @@ To write a program to predict the profit of a city using the linear regression m
 1.Initialize weights randomly.
 2.Compute predicted values.
 3.Compute gradient of loss function.
-4.Update weights using gradient descent.   
+4.Update weights using gradient descent.  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ## Program:
 Program to implement the linear regression using gradient descent.    
 Developed by: sanjay.v     
